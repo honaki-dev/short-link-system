@@ -1,0 +1,22 @@
+{
+    "name": "short-link-system",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/index.js",
+    "scripts": {
+        "start": "node ./src/index.js"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "Honaki <me@honaki.site>",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cookie-parser": "^1.4.7",
+        "dotenv": "^17.3.1",
+        "express": "^5.2.1",
+        "jsonwebtoken": "^9.0.3",
+        "mongoose": "^9.2.1",
+        "nanoid": "^5.1.6"
+    }
+}
